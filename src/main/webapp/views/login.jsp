@@ -11,7 +11,7 @@
     <c:if test="${not empty errorMessage}">
         <div class="error">${errorMessage}</div>
     </c:if>
-    <form action="${pageContext.request.contextPath}/user/login" method="post">
+    <form action="${pageContext.request.contextPath}/login" method="post">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br>
 
